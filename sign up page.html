@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2E8DE;
+    background-size: cover;
+    font-family:"https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap" ;
+    color:#FFFFFF;
+}
+.box {
+    width: 300px;
+    padding: 30px;
+    background-color: #f8f8f8;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #695875;
+}
+.box h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #695875;
+    color: #fff;
+    outline: none;
+}
+input::placeholder{
+    color: #a09b9b;
+}
+label {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #615b5b;
+}
+label input {
+    margin-right: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: #695875;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+p {
+    text-align: center;
+    color: #615b5b;
+}  
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Sign-in</h2>
+        <form>
+            <input type="text" placeholder="User name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="password" required>
+            <label>
+                <input type="checkbox"> Remember Me
+            </label>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="#">Sign Up</a></p>
+    </div>
+</body>
+</html>
